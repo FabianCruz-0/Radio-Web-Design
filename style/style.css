@@ -248,7 +248,9 @@ margin:0px 15px 0px 15px;
     .buttonsAd{
         height: 2vh;
         }
-    
+    .ad-image-mc{
+        background-size: cover;
+    }
     .ad-image-mc:hover{
         font-size: 5vw;
     }   
