@@ -10,14 +10,18 @@ You can see the final design here: https://radio-web-design.netlify.app
 ###### Howevere, this are the results (<strong><i>Click images to see better</i></strong>):
 <table>
 <tr>
-<td>
+<td valign=top>
 <center>
 Desktop View:<br>
+
+![Desktop](https://raw.githubusercontent.com/FabianCruz-0/Radio-Web-Design/master/style/images/final-results/desktop.png)
 </center>
 </td>
 <td>
 <center>
 Mobile View:<br>
+
+![Mobile](https://raw.githubusercontent.com/FabianCruz-0/Radio-Web-Design/master/style/images/final-results/mobile.png)
 </center>
 </td>
 </tr>
