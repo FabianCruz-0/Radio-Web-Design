@@ -224,32 +224,33 @@ margin:0px 15px 0px 15px;
         font-size: 4vw;
     }
     .socials{
-        margin-top: 5vh;
-        margin-bottom: 15vh;
+        margin-bottom: 9vh;
     }
     .col-lg-4{
-        margin-top: 5vw;
+        margin-top: 5vh;
     }
     .profile{
         width: 8vw;
     }
     .current{
-        margin-top: 3vh;
+        margin-top: 2vh;
     }
     .first-song{
-        padding-top: 20%;
+        padding-top: 60%;
     }
     .oldest{
-        margin-top: 5vh;
+        margin-top: 3vh;
     }
     .buttonsAd{
         height: 2vh;
         }
+    .ad-image{
+        height: 70%;}
     .ad-image-mc{
-        background-size: 120%;
-    }  
+        height: 70%;
+    }
+    
     .ad-image-mc:hover{
-        background-size: 120%;
         font-size: 5vw;
     }   
 }
