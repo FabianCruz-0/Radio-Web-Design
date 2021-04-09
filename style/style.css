@@ -1,3 +1,73 @@
+html{
+    min-height: 100vh;
+}
 body{
     background-color: #1B1B1F;
+    background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='6000' height='200' preserveAspectRatio='none' viewBox='0 0 6000 200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1295%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c94 C 150%2c114 450%2c201 750%2c194 C 1050%2c187 1200%2c61 1500%2c59 C 1800%2c57 1950%2c192.4 2250%2c184 C 2550%2c175.6 2700%2c24.8 3000%2c17 C 3300%2c9.2 3450%2c145 3750%2c145 C 4050%2c145 4200%2c9 4500%2c17 C 4800%2c25 4950%2c184.2 5250%2c185 C 5550%2c185.8 5850%2c53.8 6000%2c21L6000 200L0 200z' fill='rgba(129%2c 129%2c 141%2c 0.63)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1295'%3e%3crect width='6000' height='200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"),
+    
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='6000' height='200' preserveAspectRatio='none' viewBox='0 0 6000 200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1302%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c149 C 150%2c130.4 450%2c48.6 750%2c56 C 1050%2c63.4 1200%2c181.4 1500%2c186 C 1800%2c190.6 1950%2c79.8 2250%2c79 C 2550%2c78.2 2700%2c185.8 3000%2c182 C 3300%2c178.2 3450%2c76.2 3750%2c60 C 4050%2c43.8 4200%2c100.4 4500%2c101 C 4800%2c101.6 4950%2c52.2 5250%2c63 C 5550%2c73.8 5850%2c136.6 6000%2c155L6000 200L0 200z' fill='rgba(43%2c 43%2c 49%2c 0.63)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1302'%3e%3crect width='6000' height='200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    color: white;
+}
+.columns{
+    height: 70vh;
+}
+.col-md-4{
+    height: 100%;
+}
+.profile{
+    border-radius: 100%;
+    width: 5vw;
+}
+th{
+    font-weight: bold;
+    text-align: center;
+    width: 60px;
+}
+.images{
+    height: 100px;
+}
+
+.next{
+    color: rgb(150, 150, 150);
+}
+.later{
+    color: rgb(143, 143, 143);
+}
+.reproduciendo{
+    background: rgb(27,27,31);
+background: linear-gradient(0deg, rgba(27,27,31,1) 0%, rgba(92,33,42,1) 100%);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.ad{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ad-image{
+    height: 75%;  
+    background-color: #232327;
+    border-radius: 20px;
+} 
+.ad-image-mc{
+    background-image: url("https://cdn.discordapp.com/attachments/722579939261677690/829877306042482718/ad.jpg");
+    width: 100%;
+    height: 80%;
+    background-position-x: right;
+    background-position-y: 20%;
+    border-radius: 20px;
+}
+.col{
+    padding: 25px 0px 25px 0px;
+}
+.socials{
+    position: relative;
+    bottom: 0px;
+background-color: #1F1F23;
+border-radius: 30px;
 }
