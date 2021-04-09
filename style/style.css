@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-position-y: bottom;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .columns{
     min-height: 70vh;
@@ -45,7 +46,16 @@ body{
     border-radius: 100%;
     width: 4vw;
 }
+.prof2{
+    filter: opacity(70%);
+}
+.prof3{
+    filter: opacity(60%);
+}
 
+table{
+    width: 100%;
+}
 th{
     font-weight: bold;
     text-align: center;
@@ -53,7 +63,9 @@ th{
 }
 .images{
     height: 100px;
-    color: rgb(126, 126, 126)
+    color: rgb(216, 216, 216);
+    font-weight: bold;
+    font-size: 1vw;
 }
 
 .next{
@@ -102,10 +114,19 @@ background: linear-gradient(0deg, rgba(18,1,5) 0%, rgba(101,6,25,1) 100%);
     background-image: url("https://cdn.discordapp.com/attachments/722579939261677690/829877306042482718/ad.jpg");
     width: 100%;
     height: 80%;
-    background-position-x: right;
+    background-position-x: 90%;
     background-position-y: 20%;
     border-radius: 20px;
     color: rgba(0, 0, 0, 0.397);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    transition: font-size 0.3s, filter 0.3s;
+}
+.ad-image-mc:hover{
+    filter: opacity(60%);
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
 }
 .socImages{
     padding: 25px 0px 25px 0px;
@@ -159,16 +180,28 @@ margin:0px 15px 0px 15px;
 .buttonAd1
 {
     background-color: rgb(112, 112, 112);
-
+    transition: background-color 0.4s;
 }
+.buttonAd1:hover
+{
+    background-color: rgb(201, 201, 201);
+}
+
 .buttonAd2{
     background-color: rgb(201, 201, 201);
 
 }
 .buttonAd3{
     background-color: rgb(112, 112, 112);
+    transition: background-color 0.4s;
 
 }
+.buttonAd3:hover{
+    background-color: rgb(201, 201, 201);
+    transition: background-color 0.4s;
+
+}
+
 @media (max-width:992px){
     .data-lado1{
         width: 100%;
@@ -181,6 +214,15 @@ margin:0px 15px 0px 15px;
         padding: 0px;
     min-height: 700px;
     }
+    th{
+        font-size: 2.5vw;
+    }
+    .images{
+        font-size: 1.8vw;
+    }
+    .text-start{
+        font-size: 4vw;
+    }
     .socials{
         margin-top: 5vh;
         margin-bottom: 15vh;
@@ -192,12 +234,22 @@ margin:0px 15px 0px 15px;
         width: 8vw;
     }
     .current{
+        margin-top: 3vh;
+    }
+    .first-song{
         padding-top: 20%;
     }
     .oldest{
         margin-top: 5vh;
     }
     .buttonsAd{
-        height: 2vw;
+        height: 2vh;
         }
+    .ad-image-mc{
+        background-size: 120%;
+    }  
+    .ad-image-mc:hover{
+        background-size: 120%;
+        font-size: 5vw;
+    }   
 }
