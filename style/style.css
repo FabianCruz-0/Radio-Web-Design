@@ -203,6 +203,9 @@ margin:0px 15px 0px 15px;
 }
 
 @media (max-width:992px){
+    .playing{
+        font-size: 3vh;
+    }
     .data-lado1{
         width: 100%;
         height: 100%;
@@ -215,13 +218,13 @@ margin:0px 15px 0px 15px;
     min-height: 700px;
     }
     th{
-        font-size: 3vw;
+        font-size: 3vh;
     }
     .images{
-        font-size: 2.1vw;
+        font-size: 2.1vh;
     }
     .text-start{
-        font-size: 4vw;
+        font-size: 4vh;
     }
     .socials{
         margin-top: 3vh;
@@ -231,7 +234,7 @@ margin:0px 15px 0px 15px;
         margin-top: 5vh;
     }
     .profile{
-        width: 8vw;
+        width: 8vh;
     }
     .current{
         margin-top: 2vh;
