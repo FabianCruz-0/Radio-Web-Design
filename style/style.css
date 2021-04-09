@@ -194,4 +194,10 @@ margin:0px 15px 0px 15px;
     .current{
         padding-top: 20%;
     }
+    .oldest{
+        margin-top: 5vh;
+    }
+    .buttonsAd{
+        height: 2vw;
+        }
 }
