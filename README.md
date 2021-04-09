@@ -7,7 +7,7 @@ Web source code made by [Fabián Cruz (Go to GitHub Profile)](https://github.com
 You can see the final design here: https://radio-web-design.netlify.app
 <br>
 
-###### Howevere, this are the results (<strong><i>Click images to see better</i></strong>):
+#### Howevere, this are the results (<strong><i>Click images to see better</i></strong>):
 <table>
 <tr>
 <td valign=top>
