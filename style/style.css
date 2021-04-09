@@ -26,6 +26,9 @@ body{
     min-height: 400px;
     height: 100%;
     padding: 0px 50px 0px 50px;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .data-lado2{
     width: 100%;
@@ -38,20 +41,18 @@ body{
     height: 100%;
 }
 
-.col-md-4{
-    height: 100%;
-}
 .profile{
     border-radius: 100%;
     width: 4vw;
 }
+
 th{
     font-weight: bold;
     text-align: center;
     width: 80px;
 }
 .images{
-    height: 150px;
+    height: 100px;
     color: rgb(126, 126, 126)
 }
 
@@ -106,12 +107,63 @@ background: linear-gradient(0deg, rgba(18,1,5) 0%, rgba(101,6,25,1) 100%);
     border-radius: 20px;
     color: rgba(0, 0, 0, 0.397);
 }
-.col{
+.socImages{
     padding: 25px 0px 25px 0px;
 }
 .socials{
 background-color: #1F1F23;
 border-radius: 30px;
+}
+.responsive-iframe2{
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.first-song{
+    background: rgb(27,27,31);
+background: linear-gradient(0deg, #070F17 20%, #265986 100%);
+    position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 37%;
+  border-radius: 8px;
+}
+.oldest{
+    background: rgb(27,27,31);
+background: linear-gradient(0deg, #051D16 50%, #1A9F79 100%);
+    position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top:80%;
+  border-radius: 8px;
+}
+.buttonsContainer{
+    width: 100%;
+    position:relative;
+    bottom: -8%;
+}
+.buttonsAd{
+border-radius: 40px;
+height: 0.7vw;
+margin:0px 15px 0px 15px;
+}
+.buttonAd1
+{
+    background-color: rgb(112, 112, 112);
+
+}
+.buttonAd2{
+    background-color: rgb(201, 201, 201);
+
+}
+.buttonAd3{
+    background-color: rgb(112, 112, 112);
+
 }
 @media (max-width:992px){
     .data-lado1{
@@ -134,5 +186,8 @@ border-radius: 30px;
     }
     .profile{
         width: 8vw;
+    }
+    .current{
+        padding-top: 20%;
     }
 }
